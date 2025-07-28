@@ -778,9 +778,9 @@ main {
             document.getElementById("year").innerHTML = year;
             document.getElementById("created").innerHTML = day + " " + month + " " + year;
 			
-			let randomNumber = Math.floor(Math.random() * 7) + 1;
+			let randomNumber = Math.floor(Math.random() * 4) + 1;
 			let img = new Image();
-			img.src = "https://kodos.vercel.app/kodo" + randomNumber + ".jpg";
+			img.src = "https://kodos.vercel.app/perfil" + randomNumber + ".jpg";
 			img.onload = function() {
 				document.getElementById("f1").src = img.src;
 				document.getElementById("f2").src = img.src;
